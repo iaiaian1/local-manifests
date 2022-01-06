@@ -8,14 +8,12 @@
    <remote name="Chuck"
            fetch="https://github.com/ChuckProjekt" />
    <remote name="mi"
-           fetch="https://github.com/mi-msm8937" />     
-   <remote name="Devs"
-           fetch="https://github.com/xiaomi-sdm439-devs" />
+           fetch="https://github.com/mi-sdm439" />     
 
 <!-- Kernels -->
    <project path="kernel/xiaomi/sdm439" 
             name="android_kernel_xiaomi_sdm439"
-            remote="Devs" 
+            remote="mi" 
             revision="a12/main"  
             clone-depth="1"/>
 
@@ -44,7 +42,7 @@
    <!-- <project path="vendor/xiaomi/sdm439-common" 
             name="vendor_xiaomi_sdm439-common" 
             remote="ian" 
-            revision="12.0-NightLight" /> -->
+            revision="12.0" /> -->
   
    
 <!-- Replacements -->
@@ -55,11 +53,6 @@
             name="hardware_qcom-caf_display" 
             remote="hsx02" 
             revision="Aex-S"/> -->
-<!--    <remove-project name="LineageOS/android_hardware_qcom_display" />
-   <project path="hardware/qcom-caf/msm8996/display" 
-            name="android_hardware_qcom_display" 
-            remote="mi" 
-            revision="twelve"/> -->
    
 <!-- Wi-Fi -->
 <!--    <remove-project name="platform_hardware_qcom_wlan"/>
