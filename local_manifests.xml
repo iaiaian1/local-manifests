@@ -28,7 +28,7 @@
    <project path="device/xiaomi/sdm439-common" 
             name="android_device_xiaomi_sdm439-common" 
             remote="ian" 
-            revision="S"/>
+            revision="S-Syberia"/>
   
 <!-- Vendor Trees and Common Vendor Tree -->
    <project path="vendor/xiaomi/pine" 
