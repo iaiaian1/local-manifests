@@ -82,11 +82,11 @@
             revision="12"/> -->
    
 <!-- Settings bug -->
-   <!-- <remove-project name="LineageOS/android_packages_resources_devicesettings"/>
+   <remove-project name="android_packages_resources_devicesettings"/>
    <project path="packages/resources/devicesettings" 
             name="packages_resources_devicesettings" 
             remote="hsx02" 
-            revision="lineage-18.1"/> -->
+            revision="lineage-18.1"/>
    
 <!-- Media bringup -->
    <project path="hardware/qcom-caf/msm8996/media" 
