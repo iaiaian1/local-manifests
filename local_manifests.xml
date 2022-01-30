@@ -9,8 +9,8 @@
            fetch="https://github.com/ChuckProjekt" />
    <remote name="mi"
            fetch="https://github.com/mi-sdm439" />
-   <remote name="Arrow"
-           fetch="https://github.com/ArrowOS" /> 
+   <remote name="pxl"
+           fetch="https://github.com/PixelExperience" /> 
 
 <!-- Kernels -->
    <project path="kernel/xiaomi/sdm439" 
@@ -38,20 +38,20 @@
    <project path="vendor/xiaomi/sdm439-common" 
             name="vendor_xiaomi_sdm439-common" 
             remote="ian" 
-            revision="12.0" />
+            revision="12.0-CAF" />
 
 <!-- SEPolicy -->
    <project path="device/qcom/sepolicy-legacy-um" 
-            name="android_device_qcom_sepolicy-legacy-um" 
-            remote="Arrow" 
-            revision="arrow-12.0"/>
+            name="device_qcom_sepolicy-legacy-um" 
+            remote="pxl" 
+            revision="twelve"/>
 
 <!-- Bootanimation -->
-   <remove-project name="platform_vendor_syberia"/>
+<!--    <remove-project name="platform_vendor_syberia"/>
    <project path="vendor/syberia" 
             name="platform_vendor_syberia" 
             remote="ian" 
-            revision="12.0"/>
+            revision="12.0"/> -->
    
 <!-- Important vendor to for octavi or other roms if not booting with regular venCommon -->
    <!-- <project path="vendor/xiaomi/sdm439-common" 
