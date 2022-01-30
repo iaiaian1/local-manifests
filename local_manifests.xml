@@ -35,10 +35,10 @@
             name="vendor_xiaomi_pine" 
             remote="hsx02"
             revision="12.0"/>   
-   <project path="vendor/xiaomi/sdm439-common"  
+   <project path="vendor/xiaomi/sdm439-common" 
             name="vendor_xiaomi_sdm439-common" 
-            remote="hsx02" 
-            revision="12.0"/>
+            remote="ian" 
+            revision="12.0" />
 
 <!-- SEPolicy -->
    <project path="device/qcom/sepolicy-legacy-um" 
