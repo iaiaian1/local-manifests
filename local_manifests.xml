@@ -16,10 +16,10 @@
             clone-depth="1"/>
 
 <!-- Device Tree and Common Device Tree -->
-   <project path="device/xiaomi/pine" 
-            name="device_xiaomi_pine" 
+   <project path="device/xiaomi/mi439"
+            name="android_device_xiaomi_mi439"
             remote="ian" 
-            revision="Bliss-12.0"/>
+            revision="Bliss-mi439"/>
    
    <project path="device/xiaomi/sdm439-common" 
             name="device_xiaomi_sdm439-common" 
@@ -27,8 +27,8 @@
             revision="12.0"/>
   
 <!-- Vendor Trees and Common Vendor Tree -->
-   <project path="vendor/xiaomi/pine" 
-            name="vendor_xiaomi_pine" 
+   <project path="vendor/xiaomi/mi439"
+            name="proprietary_vendor_xiaomi_mi439"
             remote="ian"
             revision="12.0"/>   
 
@@ -47,7 +47,7 @@
             revision="8.6.2"/>
 
 <!-- Bringup for FAILED: ninja: 'external/ant-wireless/antradio-library/com.dsi.ant.antradio_library.xml' -->
-   <project path="external/ant-wireless/antradio-library" 
+   <project path="external/ant-wireless/antradio-library"
             name="external_ant-wireless_antradio-library" 
             remote="pixel"
             revision="twelve"/>
@@ -62,7 +62,7 @@
 <!-- Screen flickering AKA not booting/going back to splash. Fork and make changes to framework -->
    <remove-project name="platform_frameworks_base"/>
    <project path="frameworks/base" 
-            name="platform_frameworks_base-1" 
+            name="platform_frameworks_base" 
             remote="ian" 
             revision="arcadia"/>
    
@@ -90,5 +90,12 @@
             name="android_packages_apps_FMRadio" 
             remote="ian" 
             revision="lineage-18.1"/>
+
+<!-- ANX Camera -->
+   <project path="vendor/xiaomi/miuicamera"
+            name="vendor_xiaomi_miuicamera"
+            remote="ian"
+            revision="master"
+            clone-depth="1"/>
    
 </manifest>
