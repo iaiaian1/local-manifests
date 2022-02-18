@@ -22,7 +22,7 @@
             revision="Bliss-mi439"/>
    
    <project path="device/xiaomi/sdm439-common" 
-            name="device_xiaomi_sdm439-common" 
+            name="device_xiaomi_sdm439-common-1"
             remote="ian" 
             revision="12.0-mi439"/>
   
