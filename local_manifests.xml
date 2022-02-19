@@ -32,10 +32,10 @@
             remote="ian"
             revision="12.0"/>   
 
-   <project path="vendor/xiaomi/sdm439-common"  
-            name="vendor_xiaomi_sdm439-common" 
+   <project path="vendor/xiaomi/sdm439-common"
+            name="vendor_xiaomi_sdm439-common-1"
             remote="ian" 
-            revision="12.0"/>
+            revision="12"/>
    
 <!-- Replacements -->
    
