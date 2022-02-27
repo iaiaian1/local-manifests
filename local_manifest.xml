@@ -79,6 +79,11 @@
             name="android_packages_apps_FMRadio"
             remote="ian"
             revision="lineage-18.1"/>
+   <!-- LIBFM -->
+   <project path="vendor/qcom/opensource/libfmjni"
+            name="vendor_qcom_opensource_libfmjni"
+            remote="pxl"
+            revision="twelve"/>
 
 <!-- ANX Camera -->
    <project path="vendor/xiaomi/miuicamera" 
