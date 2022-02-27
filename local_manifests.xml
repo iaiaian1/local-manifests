@@ -7,40 +7,39 @@
            fetch="https://github.com/PixelExperience"/>
 
 <!-- Kernels -->
-   <project path="kernel/xiaomi/sdm439" 
+   <project path="kernel/xiaomi/sdm439"
             name="android_kernel_xiaomi_sdm439"
             remote="ian"
-            revision="a12/main"  
+            revision="a12/main"
             clone-depth="1"/>
 
 <!-- Device Tree and Common Device Tree -->
-   <project path="device/xiaomi/pine" 
-            name="device_xiaomi_pine" 
-            remote="ian" 
+   <project path="device/xiaomi/pine"
+            name="device_xiaomi_pine"
+            remote="ian"
             revision="Syberia-12.0"/>
    
-   <project path="device/xiaomi/sdm439-common" 
-            name="device_xiaomi_sdm439-common" 
-            remote="ian" 
-            revision="12.0-SyberiaV2"/>
+   <project path="device/xiaomi/sdm439-common"
+            name="device_xiaomi_sdm439-common"
+            remote="ian"
+            revision="12.0-Syberia"/>
   
 <!-- Vendor Trees and Common Vendor Tree -->
-   <project path="vendor/xiaomi/pine" 
-            name="vendor_xiaomi_pine" 
+   <project path="vendor/xiaomi/pine"
+            name="vendor_xiaomi_pine"
             remote="ian"
-            revision="12.0"/>   
+            revision="12.0"/>
    <project path="vendor/xiaomi/sdm439-common" 
             name="vendor_xiaomi_sdm439-common" 
-            remote="ian" 
+            remote="ian"
             revision="12.0-CAF" />
 
 <!-- SEPolicy -->
    <project path="device/qcom/sepolicy-legacy-um"
-            name="device_qcom_sepolicy-legacy-um" 
-            remote="pxl" 
+            name="device_qcom_sepolicy-legacy-um"
+            remote="pxl"
             revision="twelve"/>
   
-   
 <!-- Replacements -->
    
 <!-- Display and nightlight fix-->
@@ -50,42 +49,42 @@
             revision="8.6.2"/>
    
 <!-- Wi-Fi -->
-<!--    <remove-project name="platform_hardware_qcom_wlan"/>
-   <project path="hardware/qcom-caf/wlan" 
-            name="hardware_qcom-caf_wlan" 
-            remote="hsx02" 
-            revision="S"/> -->
+   <remove-project name="platform_hardware_qcom_wlan"/>
+   <project path="hardware/qcom-caf/wlan"
+            name="platform_hardware_qcom_wlan"
+            remote="ian"
+            revision="sushi"/>
    
 <!-- Audio -->
-   <project path="hardware/qcom-caf/msm8996/audio" 
-            name="hardware_qcom_audio" 
+   <project path="hardware/qcom-caf/msm8996/audio"
+            name="hardware_qcom_audio"
             remote="ian"
             revision="8.6.2" />
    
-<!-- Screen flickering AKA not booting/going back to splash. Fork and make changes to framework -->
-   <!-- <remove-project name="platform_frameworks_base"/>
-   <project path="frameworks/base" 
-            name="platform_frameworks_base" 
-            remote="ian" 
-            revision="12"/> -->
-   
 <!-- Settings bug -->
    <remove-project name="android_packages_resources_devicesettings"/>
-   <project path="packages/resources/devicesettings" 
+   <project path="packages/resources/devicesettings"
             name="android_packages_resources_devicesettings"
             remote="ian"
             revision="lineage-18.1"/>
    
 <!-- Media bringup -->
-   <project path="hardware/qcom-caf/msm8996/media" 
-            name="hardware_qcom_media" 
+   <project path="hardware/qcom-caf/msm8996/media"
+            name="hardware_qcom_media"
             remote="ian"
             revision="8.6.2" />
    
 <!-- Radio additional enable only when all bugs are fixed -->
-   <!-- <project path="packages/apps/FMRadio" 
-            name="packages_apps_FMRadio" 
-            remote="hsx02" 
-            revision="lineage-18.1"/> -->
+   <project path="packages/apps/FMRadio"
+            name="android_packages_apps_FMRadio"
+            remote="ian"
+            revision="lineage-18.1"/>
+
+<!-- ANX Camera -->
+   <project path="vendor/xiaomi/miuicamera" 
+            name="vendor_xiaomi_miuicamera" 
+            remote="ian" 
+            revision="master" 
+            clone-depth="1"/>  
    
 </manifest>
