@@ -5,6 +5,8 @@
            fetch="https://github.com/iaiaian1"/>
    <remote name="NUS"
            fetch="https://github.com/NusantaraROM-Devices"/>
+   <remote name="pxl"
+           fetch="https://github.com/PixelExperience"/>
 
 <!-- Kernels -->
    <project path="kernel/xiaomi/sdm439"
