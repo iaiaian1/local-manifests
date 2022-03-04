@@ -26,9 +26,9 @@
   
 <!-- Vendor Trees and Common Vendor Tree -->
    <project path="vendor/xiaomi/mi439"
-            name="proprietary_vendor_xiaomi_mi439"
+            name="vendor_xiaomi_mi439"
             remote="ian"
-            revision="lineage-18.1"/>
+            revision="12.0"/>
    <project path="vendor/xiaomi/sdm439-common" 
             name="vendor_xiaomi_sdm439-common-1" 
             remote="ian"
