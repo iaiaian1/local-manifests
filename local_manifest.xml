@@ -63,18 +63,10 @@
             name="hardware_qcom_media"
             remote="ian"
             revision="8.6.2"/>
-
    
 <!-- Radio additional enable only when all bugs are fixed -->
    <project path="packages/apps/FMRadio"
             name="android_packages_apps_FMRadio"
             remote="ian"
             revision="lineage-18.1"/>
-
-<!-- ANX Camera -->
-   <project path="vendor/xiaomi/miuicamera" 
-            name="vendor_xiaomi_miuicamera" 
-            remote="ian" 
-            revision="master" 
-            clone-depth="1"/>  
   </manifest>
