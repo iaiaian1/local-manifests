@@ -94,10 +94,10 @@
             revision="twelve"/>
 
 <!-- ANX Camera -->
-   <project path="vendor/xiaomi/miuicamera" 
+   <!-- <project path="vendor/xiaomi/miuicamera"
             name="vendor_xiaomi_miuicamera" 
             remote="ian" 
             revision="master" 
-            clone-depth="1"/>  
+            clone-depth="1"/>   -->
 
   </manifest>
