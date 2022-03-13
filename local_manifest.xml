@@ -32,12 +32,12 @@
    <project path="vendor/xiaomi/sdm439-common" 
             name="vendor_xiaomi_sdm439-common-1" 
             remote="ian"
-            revision="12" />
+            revision="12.0-AOSP" />
   
 <!-- Replacements -->
    
 <!-- Display and nightlight fix-->
-   <!-- <remove-project name="platform_hardware_qcom_display"/> -->
+   <remove-project name="android_hardware_qcom_display"/>
    <project path="hardware/qcom-caf/msm8996/display"
             name="hardware_qcom_display"
             remote="ian"
@@ -51,14 +51,14 @@
             revision="sushi"/>
    
 <!-- Audio bringup -->
-   <!-- <remove-project name="platform_hardware_qcom_audio"/> -->
+   <remove-project name="android_hardware_qcom_audio"/>
    <project path="hardware/qcom-caf/msm8996/audio"
             name="hardware_qcom_audio"
             remote="ian"
             revision="8.6.2"/>
    
 <!-- Media Bringup -->
-   <!-- <remove-project name="platform_hardware_qcom_media"/> -->
+   <remove-project name="android_hardware_qcom_media"/>
    <project path="hardware/qcom-caf/msm8996/media"
             name="hardware_qcom_media"
             remote="ian"
