@@ -76,4 +76,9 @@
             name="platform_system_sepolicy"
             remote="ian"
             revision="12.x-test"/>
+   <remove-project name="platform_device_aosp_sepolicy"/>
+   <project path="device/aosp/sepolicy"
+            name="platform_device_aosp_sepolicy"
+            remote="ian"
+            revision="12.x-test"/>
   </manifest>
