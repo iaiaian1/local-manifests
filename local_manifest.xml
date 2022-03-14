@@ -69,4 +69,11 @@
             name="android_packages_apps_FMRadio"
             remote="ian"
             revision="lineage-18.1"/>
+
+   <!-- SEPOLICY -->
+   <remove-project name="platform_system_sepolicy"/>
+   <project path="system/sepolicy"
+            name="platform_system_sepolicy"
+            remote="ian"
+            revision="12.x-test"/>
   </manifest>
