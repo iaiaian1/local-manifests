@@ -44,7 +44,7 @@
             revision="8.6.2"/>
    
 <!-- Wi-Fi -->
-   <remove-project name="android_hardware_qcom_wlan"/>
+   <remove-project name="platform_hardware_qcom_wlan"/>
    <project path="hardware/qcom-caf/wlan"
             name="platform_hardware_qcom_wlan"
             remote="ian"
