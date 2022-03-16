@@ -35,7 +35,7 @@
 <!-- Replacements -->
    
 <!-- Display and nightlight fix-->
-   <remove-project name="LineageOS/android_hardware_qcom_display"/>
+   <remove-project name="TheXPerienceProject/android_hardware_qcom_display"/>
    <project path="hardware/qcom-caf/msm8996/display"
             name="hardware_qcom_display"
             remote="ian"
@@ -49,7 +49,7 @@
             revision="sushi"/>
    
 <!-- Audio -->
-   <remove-project name="LineageOS/android_hardware_qcom_audio"/>
+   <remove-project name="TheXPerienceProject/android_hardware_qcom_audio"/>
    <project path="hardware/qcom-caf/msm8996/audio"
             name="hardware_qcom_audio"
             remote="ian"
@@ -63,7 +63,7 @@
             revision="lineage-18.1"/>
    
 <!-- Media bringup -->
-   <remove-project name="LineageOS/android_hardware_qcom_media"/>
+   <remove-project name="TheXPerienceProject/android_hardware_qcom_media"/>
    <project path="hardware/qcom-caf/msm8996/media"
             name="hardware_qcom_media"
             remote="ian"
