@@ -3,8 +3,6 @@
 
    <remote name="ian"
            fetch="https://github.com/iaiaian1"/>
-   <remote name="chuck"
-           fetch="https://github.com/ChuckProjekt"/>
 
 <!-- Kernels -->
    <project path="kernel/xiaomi/sdm439"
@@ -22,7 +20,7 @@
    <project path="device/xiaomi/sdm439-common"
             name="device_xiaomi_sdm439-common-1"
             remote="ian"
-            revision="12"/>
+            revision="12.0-XPE"/>
   
 <!-- Vendor Trees and Common Vendor Tree -->
    <project path="vendor/xiaomi/mi439"
@@ -37,11 +35,11 @@
 <!-- Replacements -->
    
 <!-- Display and nightlight fix-->
-   <!-- <remove-project name="TheXPerienceProject/android_hardware_qcom_display"/>
+   <!-- <remove-project name="TheXPerienceProject/android_hardware_qcom_display"/> -->
    <project path="hardware/qcom-caf/msm8996/display"
             name="hardware_qcom_display"
-            remote="chuck"
-            revision="8.6.2-CAF"/> -->
+            remote="ian"
+            revision="8.6.2-XPE"/>
    
 <!-- Wi-Fi -->
    <remove-project name="TheXPerienceProject/android_hardware_qcom_wlan"/>
@@ -51,7 +49,7 @@
             revision="sushi"/>
    
 <!-- Audio -->
-   <remove-project name="TheXPerienceProject/android_hardware_qcom_audio"/>
+   <!-- <remove-project name="TheXPerienceProject/android_hardware_qcom_audio"/> -->
    <project path="hardware/qcom-caf/msm8996/audio"
             name="hardware_qcom_audio"
             remote="ian"
@@ -65,15 +63,15 @@
             revision="lineage-18.1"/>
    
 <!-- Media bringup -->
-   <remove-project name="TheXPerienceProject/android_hardware_qcom_media"/>
+   <!-- <remove-project name="TheXPerienceProject/android_hardware_qcom_media"/> -->
    <project path="hardware/qcom-caf/msm8996/media"
             name="hardware_qcom_media"
             remote="ian"
             revision="8.6.2" />
    
 <!-- Radio additional enable only when all bugs are fixed -->
-   <project path="packages/apps/FMRadio"
+   <!-- <project path="packages/apps/FMRadio"
             name="android_packages_apps_FMRadio"
             remote="ian"
-            revision="lineage-18.1"/>
+            revision="lineage-18.1"/> -->
   </manifest>
