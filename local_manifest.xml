@@ -41,6 +41,12 @@
             name="device_qcom_sepolicy-legacy-um"
             remote="pxl"
             revision="twelve"/>
+<!-- tinycompress -->
+   <remove-project name="TheXPerienceProject/android_external_tinycompress"/>
+   <project path="external/tinycompress"
+            name="external_tinycompress"
+            remote="pxl"
+            revision="twelve"/>
    
 <!-- Display and nightlight fix-->
    <!-- <remove-project name="TheXPerienceProject/android_hardware_qcom_display"/> -->
