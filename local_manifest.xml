@@ -36,11 +36,11 @@
   
 <!-- Replacements -->
 <!-- SEPolicy -->
-   <remove-project name="TheXPerienceProject/android_device_qcom_sepolicy"/>
+   <!-- <remove-project name="TheXPerienceProject/android_device_qcom_sepolicy"/>
    <project path="device/qcom/sepolicy-legacy-um"
             name="device_qcom_sepolicy-legacy-um"
             remote="pxl"
-            revision="twelve"/>
+            revision="twelve"/> -->
 <!-- tinycompress -->
    <remove-project name="TheXPerienceProject/android_external_tinycompress"/>
    <project path="external/tinycompress"
