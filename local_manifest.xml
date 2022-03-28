@@ -49,11 +49,11 @@
             revision="twelve"/>
    
 <!-- Display and nightlight fix-->
-   <remove-project name="TheXPerienceProject/android_hardware_qcom_display"/>
+   <!-- <remove-project name="TheXPerienceProject/android_hardware_qcom_display"/>
    <project path="hardware/qcom-caf/msm8996/display"
             name="hardware_qcom_display"
             remote="ian"
-            revision="8.6.2-XPE"/>
+            revision="8.6.2-XPE"/> -->
    
 <!-- Wi-Fi -->
    <remove-project name="TheXPerienceProject/android_hardware_qcom_wlan"/>
