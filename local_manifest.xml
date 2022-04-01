@@ -47,6 +47,12 @@
             name="external_tinycompress"
             remote="pxl"
             revision="twelve"/>
+<!-- INTF DISPLAY -->
+   <remove-project name="TheXPerienceProject/vendor-qcom-opensource-display-commonsys-intf"/>
+   <project path="vendor/qcom/opensource/commonsys-intf/display"
+            name="vendor-qcom-opensource-display-commonsys-intf"
+            remote="ian"
+            revision="xpe-16.0-caf"/>
    
 <!-- Display and nightlight fix-->
    <remove-project name="TheXPerienceProject/android_hardware_qcom_display"/>
