@@ -53,6 +53,12 @@
             name="vendor-qcom-opensource-display-commonsys-intf"
             remote="ian"
             revision="xpe-16.0-caf"/>
+<!-- Commonsys display -->
+   <remove-project name="TheXPerienceProject/android_vendor_qcom_opensource_display"/>
+   <project path="vendor/qcom/opensource/commonsys/display"
+            name="android_vendor_qcom_opensource_display"
+            remote="ian"
+            revision="xpe-16.0-caf"/>
    
 <!-- Display and nightlight fix-->
    <remove-project name="TheXPerienceProject/android_hardware_qcom_display"/>
