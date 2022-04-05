@@ -71,10 +71,4 @@
             remote="ian"
             revision="lineage-18.1"/>
 
-<!-- I HATE SAFETYNET -->
-   <project path="ih8sn" 
-            name="ih8sn" 
-            remote="ian" 
-            revision="master"/>
-
 </manifest>
