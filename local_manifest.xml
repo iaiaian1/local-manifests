@@ -39,7 +39,7 @@
 <!-- SEPolicy -->
    <project path="device/qcom/sepolicy-legacy-um"
             name="device_qcom_sepolicy-legacy-um"
-            remote="pxl"
+            remote="ian"
             revision="twelve"/>
   
 <!-- Replacements -->
