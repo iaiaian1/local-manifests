@@ -86,5 +86,11 @@
             remote="ian" 
             revision="master" 
             clone-depth="1"/>   -->
+<!-- Settings bug -->
+   <remove-project name="android_packages_resources_devicesettings"/>
+   <project path="packages/resources/devicesettings"
+            name="android_packages_resources_devicesettings"
+            remote="ian"
+            revision="lineage-18.1"/>
 
   </manifest>
