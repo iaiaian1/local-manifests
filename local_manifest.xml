@@ -12,7 +12,7 @@
    <project path="kernel/xiaomi/sdm439"
             name="android_kernel_xiaomi_sdm439"
             remote="ian"
-            revision="a12/main"
+            revision="a12/main-PA"
             clone-depth="1"/>
 
 <!-- Device Tree and Common Device Tree -->
