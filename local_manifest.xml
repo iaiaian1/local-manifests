@@ -57,7 +57,7 @@
    <project path="hardware/qcom/display"
             name="hardware_qcom_display"
             remote="ian"
-            revision="8.6.2"/>
+            revision="8.6.2-PA"/>
    
 <!-- Media bringup -->
    <project path="hardware/qcom/media"
