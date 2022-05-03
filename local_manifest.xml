@@ -17,12 +17,12 @@
    <project path="device/xiaomi/mi439"
             name="android_device_xiaomi_mi439"
             remote="ian"
-            revision="arcana-mi439-rebased"/>
+            revision="Arcana-mi439"/>
    
    <project path="device/xiaomi/sdm439-common"
-            name="android_device_xiaomi_sdm439-common"
+            name="device_xiaomi_sdm439-common"
             remote="ian"
-            revision="lineage-18.1"/>
+            revision="12.0-Arcana"/>
   
 <!-- Vendor Trees and Common Vendor Tree -->
    <project path="vendor/xiaomi/mi439"
@@ -30,9 +30,9 @@
             remote="ian"
             revision="12.0"/>
    <project path="vendor/xiaomi/sdm439-common" 
-            name="proprietary_vendor_xiaomi_sdm439-common" 
+            name="vendor_xiaomi_sdm439-common" 
             remote="ian"
-            revision="lineage-18.1" />
+            revision="12.0-AOSP" />
   
 <!-- Replacements -->
    
